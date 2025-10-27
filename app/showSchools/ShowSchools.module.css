@@ -1,0 +1,23 @@
+.schoolList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.schoolCard {
+  width: 240px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+}
+.schoolCard img {
+  width: 100%;
+  object-fit: cover;
+  height: 140px;
+}
+@media (max-width: 600px) {
+  .schoolCard {
+    width: 95vw;
+  }
+}
